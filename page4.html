@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Writers</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ 
+ <style>
+    body {
+      font: 400 15px/1.8 Lato, sans-serif;
+      color: #777;
+    }
+   
+    h3, h4 {
+      margin: 10px 0 30px 0;
+      letter-spacing: 10px;      
+      font-size: 20px;
+      color: #111;
+    }
+    .container {
+      padding: 80px 120px;
+    }
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    * {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+    </style>
+</head>
+<body>
+  <div class="topnav">
+    <a  href="#home">Home</a>
+    <a href="#">Favorite books</a>
+    <a class="active" href="#">Author</a>
+    <a href="https://openlibrary.org/">Recommended books</a>
+    <a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a>
+    <a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a>
+    <div class="search-container">
+      <form action="/action_page.php">
+        <input type="text" placeholder="Search.." name="search">
+        <button type="submit">Search</button>
+      </form>
+     
+    </div>
+  </div>
+<!-- Container (The Band Section) -->
+<div id="band" class="container text-center">
+  <h3>THE BAND</h3>
+  <p><em>We love music!</em></p>
+  
+  <div class="row">
+    <div class="col-sm-4">
+      <p class="text-center"><strong>Name</strong></p><br>
+      <a href="#demo" data-toggle="collapse">
+        <img src="books.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo" class="collapse">
+        <p>Book name</p>
+        <p>writer name</p>
+        <p>published year</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <p class="text-center"><strong>Name</strong></p><br>
+      <a href="#demo2" data-toggle="collapse">
+        <img src="books.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo2" class="collapse">
+        <p>Book name</p>
+        <p>writer name</p>
+        <p>published year</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <p class="text-center"><strong>Name</strong></p><br>
+      <a href="#demo3" data-toggle="collapse">
+        <img src="books.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo3" class="collapse">
+        <p>Book name</p>
+        <p>writer name</p>
+        <p>published year</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="jumbotron">
+    <div class="container text-center">
+      <h1>Latest Books</h1>      
+      <p>Some text that represents "books details"...</p>
+    </div>
+  </div>
+<footer class="container-fluid text-center">
+    <p>@copyrightsDivyaPandraju</p>
+  </footer>
+ </body>
+</html>
